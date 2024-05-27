@@ -4,7 +4,7 @@ function student(name, age) {
 
 
         student.prototype.displaydetails = function() {
-            return `studentn name  ${this.name}  and Rolno ${this.rollno}`;
+            return `studentn name  ${this.name}  and Rolno ${this.age}`;
         }
 
 }
