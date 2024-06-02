@@ -13,7 +13,7 @@ async function check(age)
 check(20).then((info)=>
 {
     console.log("result:"+info);
-}).catch((msg)=>
+}).catch((info)=>
 {
     console.log("result : "+info);
 });
